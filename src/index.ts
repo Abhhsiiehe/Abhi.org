@@ -13,7 +13,7 @@ const main = () => {
 
   const func = () => {
     const searchString = randomText();
-    iframe.src = `https://www.bing.com/search?search?form=MOZLBR&pc=MOZR&q=${searchString}`;
+    iframe.src = `https://www.bing.com/search?form=MOZLBR&pc=MOZR&q=${searchString}`;
     counter++;
     console.log('counter', counter);
     // browser
@@ -29,4 +29,5 @@ const main = () => {
   intervalId = setInterval(func, 3000) as any;
 }
 
-main();
+ma
+  in();
