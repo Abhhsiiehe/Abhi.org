@@ -1,5 +1,7 @@
 import randomWords from 'random-words';
 
+var llo =[ "water","dog","code"];
+let index = Math.floor(Math.random() * llo.length);
 const main = () => {
   const iframe = document.getElementById('msBingFrame') as HTMLIFrameElement;
   let counter = 0;
@@ -13,7 +15,7 @@ const main = () => {
 
   const func = () => {
     const searchString = randomText();
-    iframe.src = `https://www.bing.com/search?form=MOZLBR&pc=MOZR&q=${searchString}`;
+    iframe.src = `https://www.bing.com/search?q=${llo[index]}+&FORM=QSRE${searchString}`;
     counter++;
     console.log('counter', counter);
     // browser
