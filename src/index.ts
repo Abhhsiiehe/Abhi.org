@@ -14,7 +14,7 @@ const main = () => {
 
   const func = () => {
     const searchString = randomText();
-    iframe.src = `https://www.bing.com/news/search?q=${searchString}&qs=n&form=QBRE&sp=-1&lq=1&pq=dwadawbnbwacccwadaa&sc=0-19&sk=&cvid=D8949155E22D4611BA00FA1AB65BBF4B&ghsh=0&ghacc=0&ghpl=`  ;
+    iframe.src = `https://www.bing.com/news/search?q=warert`  ;
     counter++;
     console.log('counter', counter);
     // browser
